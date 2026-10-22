@@ -13,9 +13,9 @@ public class tugas2_30 {
                 durasi = mine.nextInt();
 
                 if (jenis == 1) {
-                    total = durasi * 3000;
+                    total += durasi * 3000;
                 } else {
-                    total = durasi * 2000;
+                    total += durasi * 2000;
                 }
             }
 
