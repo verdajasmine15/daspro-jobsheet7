@@ -25,8 +25,8 @@ public class tugas1_30 {
 
                 harga = harga - (harga * diskon);
 
-                totalTiket = + tiket;
-                totalPenjualan = + harga;
+                totalTiket += +tiket;
+                totalPenjualan += + harga;
                  System.out.println("Harga setelah diskon: Rp" + harga);
             }
 
